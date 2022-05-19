@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "appium": "^1.22.3",
+        "init": "^0.1.2",
+        "npm": "^8.10.0",
+        "wdio": "^6.0.1"
+    },
+    "devDependencies": {
+        "@wdio/appium-service": "^7.19.5",
+        "@wdio/browserstack-service": "^7.19.7",
+        "@wdio/cli": "^7.19.7",
+        "@wdio/local-runner": "^7.19.7",
+        "@wdio/mocha-framework": "^7.19.7",
+        "@wdio/spec-reporter": "^7.19.7"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js"
+    }
+}
